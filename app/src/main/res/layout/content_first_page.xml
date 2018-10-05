@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.marys.efareapp.FirstPage"
+    tools:showIn="@layout/activity_first_page">
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="200dp"
+        android:src="@drawable/buses"/>
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="191dp"
+        android:layout_height="34dp"
+        android:text="Select your travel destination"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Nairobi - Mombasa"
+        android:onClick="nextPage"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Nairbi - Kitale"
+        android:onClick="nextPage2"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="400dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Nairobi - Kisumu"
+        android:onClick="nextPage3"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+
+
+
+
+</LinearLayout>
